@@ -1,0 +1,8 @@
+
+kafka.topic=namenode-log-filter
+kafka.groupId=flink-es-test-001
+kafka.zk=10.203.23.212:2181,10.203.23.213:2181,10.203.23.214:2181,10.203.23.240:2181,10.203.23.241:2181/kafka-sys-shbt
+kafka.bootstrap=10.203.23.212:9092
+
+
+es.fields=timestampe,ugi,ip,cmd,src,dst,perm
